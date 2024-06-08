@@ -1,0 +1,73 @@
+.App {
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding: 20px;
+}
+
+.restaurant-list {
+   margin: 20px;
+}
+
+.restaurant-card {
+   padding: 20px;
+   background-color: #fff;
+   width: 300px;
+   height: auto;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   transition: transform 0.2s;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.restaurant-card:hover {
+   transform: scale(1.05);
+}
+
+.restaurant-poster {
+   height: 150px;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 10px 10px 0 0;
+}
+
+.restaurant-name {
+   margin: 10px 0;
+   font-size: 1.2em;
+   color: #333;
+}
+
+.restaurant-address {
+   margin: 5px 0;
+   color: #777;
+}
+
+.rating-cart {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   margin-top: 10px;
+}
+
+.restaurant-rating {
+   font-size: 1em;
+   color: #ff9900;
+}
+
+.add-to-cart {
+   padding: 10px 15px;
+   background-color: #ff9900;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.2s;
+}
+
+.add-to-cart:hover {
+   background-color: #e68a00;
+}
